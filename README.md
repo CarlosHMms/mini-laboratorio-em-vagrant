@@ -1,6 +1,6 @@
 <h1>Projeto de Laboratório com Vagrant
 
-<h3>Composição do Laboratório:<h3>
+<h3>Composição do Laboratório:</h3>
 
 <ul>
     <li>VM 1 - Gateway</li>
