@@ -1,4 +1,4 @@
-<h1>Projeto de Laboratório com Vagrant<h1>
+<h2>Projeto de Laboratório com Vagrant<h2>
 <h3>Composição do Laboratório: </h3>
 
 <ul>
@@ -40,3 +40,17 @@
 
 <h3>Scripts de Configuração</h3>
 
+<ol>
+    <li>ShellScript VM1 - Gateway</li>
+    <ul>
+        <li> Instala o pacote net-tools e realiza as configurações de rede, onde o arquivo ativa encaminhamento de portas para o tráfego de rede 
+    </ul>
+    <li>ShellScript VM2 - Servidor WEB</li>
+    <ul>
+        <li> Realiza a instalação do Apache e o net-tools, apaga o gateway padrão da rede e define o novo gateway com o IP Máquina 1 (192.168.56.254). Depois realiza a mudança de DNS para o DNS 8.8.8.8
+    </ul>
+    <li>ShellScript VM3 - Banco de Dados</li>
+    <ul>
+        <li>Realiza a instalação do MySql e o net-tools, apaga o gateway padrão da rede e define o novo gateway com o IP Máquina 1 (192.168.56.254). Depois realiza a mudança de DNS para o DNS 8.8.8.8
+    </ul>
+</ol>
