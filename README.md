@@ -2,6 +2,8 @@
 
 <h3>Composição do Laboratório:</h3>
 
+---
+
 <ul>
     <li>VM 1 - Gateway</li>
     <li>VM 2 - Servidor WEB com Apache</li>
@@ -12,6 +14,8 @@
 <p>A proposta do trabalho é criar um ambiente virtualizado composto de 3 máquinas, onde a VM 1 será um gateway que será utilziado pelas VMs 2 e 3, utilizando as ferramentas <b>Vagrant</b> e <b>VirtualBox</b> (As versões utilizadas foram as 2.2.19 e 6.1 respectivamente).</p>
 
 <h3>Configurações das VMs</h3>
+
+---
 
 <ol>
     <li>VM 1 - Gateway</li>
@@ -40,6 +44,8 @@
 </ol>
 
 <h3>Scripts de Configuração</h3>
+
+---
 
 <ol>
     <li>ShellScript VM1 - Gateway</li>
