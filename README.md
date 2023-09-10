@@ -8,5 +8,32 @@
 </ul>
 
 <h3>Proposta: </h3>
-<p>A proposta do trabalho é criar um ambiente virtualizado composto de 3 máquinas, onde a VM 1 será um gateway que será utilziado pelas VMs 2 e 3, utilizando as ferramentas <b>Vagrant</b> e <b>VirtualBox</b>(As versões utilizadas foram as 2.2.19 e 6.1 respectivamente).</p>
+<p>A proposta do trabalho é criar um ambiente virtualizado composto de 3 máquinas, onde a VM 1 será um gateway que será utilziado pelas VMs 2 e 3, utilizando as ferramentas <b>Vagrant</b> e <b>VirtualBox</b> (As versões utilizadas foram as 2.2.19 e 6.1 respectivamente).</p>
 
+<h3>Configurações das VMs</h3>
+
+<ol>
+    <li>VM 1 - Gateway</li>
+    <ul>
+        <li>Sistema Operacional: Ubuntu Server 20.04 LTS</li>
+        <li>Interface de Rede 1: IP Privado Estático (192.168.56.254)</li>
+        <li>Interface de Rede 2 (wlp0s20f3): IP Publico DHCP</li>
+        <li>Função: Gateway de Rede</li>
+        <li>Deve fornecer acesso à Internet para as VMs1 e VM2.</li>
+    </ul>
+    <li>VM 2 - Servidor WEB</li>
+    <ul>
+        <li>Sistema Operacional: Ubuntu Server 20.04 LTS</li>
+        <li>Interface de Rede 1 (wlp0s20f3): IP Privado Estático (192.168.56.15)</li>
+        <li>Função: Servidor Web</li>
+        <li>Pasta Compartilhada: `/var/www/html`</li>
+        <li>Deve fornecer uma página html acessivel pela máquina host.</li>
+    </ul>
+    <li>VM 3 - Banco de Dados</li>
+    <ul>
+        <li>Sistema Operacional: Ubuntu Server 20.04 LTS</li>
+        <li>Interface de Rede 1 (wlp0s20f3): IP Privado Estático (192.168.56.16)</li>
+        <li>Função: Banco de Dados</li>
+        <li>Deve fornecer um banco de dados acessivel por todos na rede</li>
+    </ul>
+</ol>
