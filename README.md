@@ -1,5 +1,5 @@
-<h1>Projeto de Laboratório com Vagrant<h1>
-<h3>Composição do Laboratório: </h3>
+<h1>Projeto de Laboratório com Vagrant
+<h3>Composição do Laboratório:
 
 <ul>
     <li>VM 1 - Gateway</li>
