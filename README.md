@@ -2,7 +2,7 @@
 
 <h3>Composição do Laboratório:</h3>
 
----
+___
 
 <ul>
     <li>VM 1 - Gateway</li>
@@ -15,7 +15,7 @@
 
 <h3>Configurações das VMs</h3>
 
----
+___
 
 <ol>
     <li>VM 1 - Gateway</li>
@@ -45,7 +45,7 @@
 
 <h3>Scripts de Configuração</h3>
 
----
+___
 
 <ol>
     <li>ShellScript VM1 - Gateway</li>
