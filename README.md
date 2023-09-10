@@ -1,4 +1,5 @@
-<h2>Projeto de Laboratório com Vagrant<h2>
+<h1>Projeto de Laboratório com Vagrant<h2>
+
 <h3>Composição do Laboratório: </h3>
 
 <ul>
