@@ -37,3 +37,6 @@
         <li>Deve fornecer um banco de dados acessivel por todos na rede</li>
     </ul>
 </ol>
+
+<h3>Scripts de Configuração</h3>
+
