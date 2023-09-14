@@ -1,8 +1,26 @@
-<h1>Projeto de Laboratório com Vagrant
+<h1>Projeto de Laboratório com Vagrant</h1>
+<h3>Instruções para implementação</h3>
+
+<ol>
+    <li>Sofwares Necessários: </li>
+    <ul>
+        <li>Vagrant</li>
+        <li>VirtualBox</li>
+    </ul>
+    <li>Como rodar: </li>
+    <ul>
+        <li>Após clonar o repositório e instalar os softwares necessários, na pasta de download execute o Vagrantfile no pelo terminal com o comando: </li>
+    </ul>
+    </br>
+
+```
+# vagrant up
+```
+</ol>
 
 <h3>Composição do Laboratório:</h3>
 
-***
+
 
 <ul>
     <li>VM 1 - Gateway</li>
