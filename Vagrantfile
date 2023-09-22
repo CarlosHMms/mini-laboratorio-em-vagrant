@@ -1,5 +1,6 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
+# Link para o repositório git: https://github.com/CarlosHMms/mini-laboratorio-em-vagrant
 
 Vagrant.configure("2") do |config|
 
